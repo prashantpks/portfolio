@@ -3,12 +3,28 @@ body {
     font-family: "Gloria Hallelujah", cursive;
     font-size: 16px;
     line-height: 1.8;
+    /* color:white; */
+    /* background-color: black; */
+    /* overflow: hidden; */
     /* background-image: url('./pape/'); */
-  }
+}
   main {
     padding: 16px;
     text-align: center;
   }
+
+  canvas {
+    display: block;
+    /* vertical-align: bottom; */
+  }
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: $background */
+  }
+  
   .my-img{
     width:60%;
     height:auto;
@@ -86,6 +102,10 @@ body {
   .hero p{
     font-size: 20px;
   }
+
+  .hero h1 span{
+    color:blue;
+  }
   .hero .content{
     display: flex;
     flex-direction: column;
@@ -106,7 +126,66 @@ body {
     width: 200px;
     font-family: inherit;
   }
+
+  .line-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    overflow: hidden;
+  }
+  svg{
+    display: inline-block;
+    height: 100%;
+  }
+
+  .pp-card{
+    height:20vh;
+    margin-top: 40px;
+    margin-left: 0px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease;
+  }
   
+  
+  .pp-card span{
+    color: green;
+  }
+
+  .pp-card h3{
+    color:blue;
+  }
+
+  .pp-card a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .pp-card a:hover{
+    color: red;
+  }
+  .cont{
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    align-items: center;
+  }
+  /* .cont a{
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
+  } */
+  
+  .cont wired-link{
+    --wired-link-decoration-color:white;
+  }
+
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-cd-"] {
@@ -117,4 +196,6 @@ body {
       max-width: 95%;
       height:60vh;
     }
+    
   }
+

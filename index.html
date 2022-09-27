@@ -14,14 +14,26 @@
 </head>
 
 <body>
-  <main>
+  <div id="particles-js"></div>
+  <main >
+    
+    <div class="line-container">
+
+      <svg viewBox="0 0 84 1151" fill="none" preserveAspectRatio="xMidYMax meet">
+        <path
+          d="M43 0.5V97.5L27.5 112.5L60.5 128L8.5 145.5L43 157V298C31.5 297.833 8.5 303 8.5 325C8.5 347 31.5 351.167 43 350.5C60.5 351 92 346.6 78 325C64 303.4 48.8333 316 43 325V541.5C67.5 550.5 101.8 571.6 43 584C-15.8 596.4 18.5 615.167 43 623V878H8.5V937.5H43H78V901H43V1150.5"
+          stroke="#FF0707" stroke-width="5" />
+      </svg>
+
+    </div>
     <wired-card elevation="5" class="container hero">
+      
       <div class="row">
         <div class="col-12 col-md-4 mb-sm-4">
           <img src="./assets/photo.png" class="my-img"></img>
         </div>
         <div class="col-12 col-md-6 content">
-          <h1>Hello, I am Prashant!</h1>
+          <h1>Hello, I am <span>Prashant!</span></h1>
 
           <p>I am a <span id="app"></span></p>
         </div>
@@ -29,6 +41,7 @@
 
     </wired-card>
     <section class="edu">
+      
       <h1>
         About Me
       </h1>
@@ -36,7 +49,7 @@
           Information Technology Guwahati</b> with a degree in Computer Science and Engineering. I'm most passionate
         about giving back to the community, and my goal is to pursue this passion within the field of software
         engineering. In my free time I like doing competitive programming.</p>
-      <wired-button elevation="3">Resume</wired-button>
+      <a href="https://drive.google.com/file/d/1RjdSAtfPbE5w313uGrCxbMjGt_V0vmoK/view?usp=sharing"><wired-button elevation="3">Resume</wired-button></a>
     </section>
 
     <section class="edu">
@@ -48,34 +61,34 @@
           <wired-card elevation="2" class="pro-card">
             <h2 class="mb-5">Metaverse Mall</h2>
             <wired-divider></wired-divider>
-            <p class="mt-4"><img src="./assets/vr.png" /> <img src="./assets/html.png" /> <img src="./assets/css.png" /> <img
-                src="./assets/node.png" /><img src="./assets/3d.png" /> </p>
+            <p class="mt-5"><img src="./assets/vr.png" /> <img src="./assets/html.png" /> <img src="./assets/css.png" />
+              <img src="./assets/node.png" /><img src="./assets/3d.png" /> </p>
 
-            <wired-button class="button" elevation="2"><a href="#"><img src="./assets/github.png" /> </a></wired-button>
+            <wired-button class="button" elevation="2"><a href="https://github.com/prashantpks/metaverse_mall"><img src="./assets/github.png" /> </a></wired-button>
           </wired-card>
         </div>
         <div class="col-cd-12 col-md-3 p-0 m-0 m-md-3">
           <wired-card elevation="2" class="pro-card">
             <h2 class="mb-5">Event Mapper</h2>
             <wired-divider></wired-divider>
-            <p class="mt-4"><img src="./assets/react.png" /> <img src="./assets/html.png" /> <img src="./assets/css.png" /> <img
-                src="./assets/node.png" /><img src="./assets/mongo.png" /> </p>
+            <p class="mt-5"><img src="./assets/react.png" /> <img src="./assets/html.png" /> <img
+                src="./assets/css.png" /> <img src="./assets/node.png" /><img src="./assets/mongo.png" /> </p>
 
-            <wired-button class="button" elevation="2"><a href="#"><img src="./assets/github.png" /> </a></wired-button>
+            <wired-button class="button" elevation="2"><a href="https://github.com/prashantpks/event-mapper"><img src="./assets/github.png" /> </a></wired-button>
           </wired-card>
         </div>
         <div class="col-cd-12 col-md-3 p-0 m-0 m-md-3">
           <wired-card elevation="2" class="pro-card">
             <h2 class="mb-5">Weatherly</h2>
             <wired-divider></wired-divider>
-            <p class="mt-4"><img src="./assets/react.png" /> <img src="./assets/html.png" /> <img src="./assets/css.png" /> <img
-                src="./assets/api.png" /><img src="./assets/bootstrap.png" /> </p>
+            <p class="mt-5"><img src="./assets/react.png" /> <img src="./assets/html.png" /> <img
+                src="./assets/css.png" /> <img src="./assets/api.png" /><img src="./assets/bootstrap.png" /> </p>
 
-            <wired-button class="button" elevation="2"><a href="#"><img src="./assets/github.png" /> </a></wired-button>
+            <wired-button class="button" elevation="2"><a href="https://github.com/prashantpks/weatherly"><img src="./assets/github.png" /> </a></wired-button>
           </wired-card>
         </div>
       </div>
-      <wired-button elevation="3">View All &#8594;</wired-button>
+      <a href="https://github.com/prashantpks?tab=repositories"><wired-button elevation="3" >View All &#8594;</wired-button></a>
     </section>
 
     <section class="edu">
@@ -136,9 +149,91 @@
       </div>
     </section>
     <section class="edu">
-      <h1>Achievements</h1>
+      <h1>My Profiles</h1>
+
+      <div class="row m-0">
+        <div class="col-md-6 col-cd-12">
+          <wired-card class="pp-card">
+            <div class="row">
+
+              <div class="col-3">
+                <img src="./assets/leetcode-64.png" alt="">
+              </div>
+              <div class="col-9">
+                <h3>Leetcode</h3>
+                <p><span color="green">Handle:</span> <a href="https://leetcode.com/prashantspace/">prashantspace</a></p>
+              </div>
+            </div>
+          </wired-card>
+        </div>
+        <div class="col-md-6 col-cd-12">
+          <wired-card class="pp-card">
+            <div class="row">
+
+              <div class="col-3">
+                <img src="./assets/codeforces-64.png" alt="">
+              </div>
+              <div class="col-9 ml-3">
+                <h3>Codeforces</h3>
+                <p><span color="green">Handle:</span> <a href="https://codeforces.com/profile/prashant_pks">prashant_pks</a></p>
+              </div>
+            </div>
+          </wired-card>
+        </div>
+      </div>
+
+      <div class="row m-0">
+        <div class="col-md-6 col-cd-12">
+          <wired-card class="pp-card">
+            <div class="row">
+
+              <div class="col-3">
+                <img src="./assets/codechef-64.png" alt="">
+              </div>
+              <div class="col-9">
+                <h3>Codechef</h3>
+                <p><span color="green">Handle:</span> <a href="https://www.codechef.com/users/prashant_pks">prashant_pks</a></p>
+              </div>
+            </div>
+          </wired-card>
+        </div>
+        <div class="col-md-6 col-cd-12">
+          <wired-card class="pp-card">
+            <div class="row">
+
+              <div class="col-3">
+                <img src="./assets/github-64.png" alt="">
+              </div>
+              <div class="col-9 ml-3">
+                <h3>Github</h3>
+                <p><span color="green">Handle:</span> <a href="https://github.com/prashantpks">prashantpks</a></p>
+              </div>
+            </div>
+          </wired-card>
+        </div>
+      </div>
 
     </section>
+    <section class="edu">
+      <h1>Contact Me</h1>
+      <div class="row mt-md-4 mt-2 cont">
+        <div class="col-3">
+          <wired-link href="mailto:prashantrkt2002@gmail.com"><img src="./assets/email-48.png" alt=""/></wired-link> 
+          <!-- <p><span color="green">Handle:</span> <a href="">prashantpks</a></p> -->
+          <!-- <p><wired-link href="mailto:prashantrkt2002@gmail.com"> prashantrkt2002@gmail.com</wired-link></p> -->
+        </div>
+        <div class="col-3">
+          <wired-link href="https://www.linkedin.com/in/prashant-kumar-7aa9a4203/"><img src="./assets/linkedin-48.png" alt=""/></wired-link>
+          <!-- <p><wired-link href="">Prashant Kumar</wired-link></p> -->
+        </div>
+        <div class="col-3">
+          <wired-link href="https://www.instagram.com/prashaaant_14/"><img src="./assets/instagram-48.png" alt=""/></wired-link>
+          <!-- <p><wired-link href="">Prashant Kumar</wired-link></p> -->
+        </div>
+      </div>
+    </section>
+    <wired-divider></wired-divider>
+    &#169; Prashant Kumar Singh
   </main>
 </body>
 
@@ -146,6 +241,7 @@
   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script type="module" src="https://unpkg.com/wired-elements?module"></script>
 <script type="module" src="https://unpkg.com/wired-elements/lib/wired-icon-button.js?module"></script>
+
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script type="module">
   const name = document.querySelector("wired-input");
@@ -154,24 +250,10 @@
     window.alert(`Hello ${name.value.trim()}!`);
   });
 </script>
-<script>
-  var app = document.getElementById('app');
+<script src="./particles.js"></script>
+<!-- <script scr="./particle-app.js"></script> -->
+<script src="./app.js">
 
-  var typewriter = new Typewriter(app, {
-    loop: true,
-    delay: 75,
-  });
-
-  typewriter
-    .pauseFor(0)
-    .typeString('<strong><span style="color: #27ae60;">Student</span></strong>')
-    .pauseFor(300)
-    .deleteChars(7)
-    .typeString('<strong><span style="color: #27ae60;">Developer</span></strong>')
-    .deleteChars(9)
-    .typeString('<strong><span style="color: #27ae60;">Programmer</span></strong>')
-    .pauseFor(1000)
-    .start();
 </script>
 
 </html>
