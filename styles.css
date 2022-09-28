@@ -196,6 +196,13 @@ body {
       max-width: 95%;
       height:60vh;
     }
+
+    svg path {
+      stroke-width: 3;
+    }
+    #particles-js{
+      display: none;
+    }
     
   }
 
