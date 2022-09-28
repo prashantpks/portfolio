@@ -9,4 +9,4 @@ My personal portfolio website.
 * Particles.js
 
 ## Website Link
-You can view my portfolio from [here](https://prashantpks.github.io/portfolio/)
+You can view my portfolio from [here](https://prashantpks-portfolio.herokuapp.com)
